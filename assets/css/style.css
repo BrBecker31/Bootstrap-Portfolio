@@ -1,0 +1,190 @@
+/*Custom StyleSheet*/
+
+html, body, .container-fluid {
+	height: 100%;
+}
+
+body, .body {
+	 
+	
+}
+
+.body {
+font-family: 'Antic Slab', serif;
+background-color: #C1D0EC;
+}
+
+
+/*font-family: 'Orbitron', sans-serif; this is for headings..... maybe*/
+
+/*Might use this for effect on background color. background: rgba(0,0,0,0.5);*/
+
+/*background 1*/
+
+/*#background {
+	background: url('../img/arizona-sky.jpg') no-repeat center center;
+	height: 100vh;
+	background-size: cover;
+    position: relative;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}*/
+
+/*background 2*/
+
+#background {
+	background: url('../img/arizona-sky.jpg');
+	background-size: cover;
+	background-position: center bottom;
+	height: 100%;
+}
+	
+/*Navbar*/
+
+.navbar {
+    height: 100px;
+    padding: 0 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+}
+
+/* Collapsing Navbar Styles */
+
+.shrink {
+  height: 70px;
+  transition: all ease .5s;
+  background:#292b2c ;  /*Change background to black on scroll */
+}
+
+
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 1.10em;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+    color: white;
+	
+
+}
+
+.navbar-brand {
+	font-size: 2em;
+	font-family: 'Russo One', sans-serif;
+}
+
+/*Changes the border and color of the toggler icon*/
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* Takes away blue outline once button is pushed*/
+
+button:focus {
+	outline: none;
+}
+
+/*content*/
+
+.img-thumbnail {
+	background-color: #292b2c;
+}
+
+
+.icon {
+	background-color: black;
+	color: white;
+	padding: 60px 0;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+
+/*Portfolio*/
+
+.work {
+  position: relative;
+  width: 100%;
+  margin: 20px 0 25px;
+
+
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.7;
+}
+
+.work img:hover {
+	opacity: 1;
+}
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 94%;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: black;
+  border-bottom: 0;
+}
+
+.container-fluid{
+  height: initial;
+}
+/*Contact*/
+
+.contact{
+  background-color: black;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+
+#button-contact {
+  background-color: white;
+  color:black;
+  font-family: 'Russo One', sans-serif;
+  opacity: 0.7;
+}
+
+#button-contact:hover {
+  opacity: 1;
+}
+
+#about-me {
+  padding-top: 80px;
+}
+
+#portfolio {
+  padding-top: 80px;
+}
+
+.fa-cog{
+  color:white;
+  opacity: 0.7;
+}
+
+.fa-cog:hover {
+  opacity: 1;
+}
